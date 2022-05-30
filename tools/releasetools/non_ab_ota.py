@@ -222,14 +222,14 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("Target: {}".format(target_info.fingerprint))
 
   # Build info
-  script.Print("                                     "); 
-  script.Print("______                               ");
-  script.Print("___  / _____________________________ ");
-  script.Print("__  /  _  __ \_  ___/__  __ \__  __ \");
-  script.Print("_  /___/ /_/ /(__  )__  /_/ /_  /_/ /");
-  script.Print("/_____/\____//____/ _  .___/_  .___/ ");
-  script.Print("                    /_/     /_/      ");
-  script.Print("                                     ");
+  script.Print("                                      "); 
+  script.Print("______                                ");
+  script.Print("___  / _____________________________  ");
+  script.Print("__  /  _  __ \_  ___/__  __ \__  __ \ ");
+  script.Print("_  /___/ /_/ /(__  )__  /_/ /_  /_/ / ");
+  script.Print("/_____/\____//____/ _  .___/_  .___/  ");
+  script.Print("                    /_/     /_/       ");
+  script.Print("                                      ");
 
   buildid = target_info.GetBuildProp("ro.modversion")
   androidver = target_info.GetBuildProp("ro.build.version.release")
